@@ -10,9 +10,15 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@types/jest": "^27.4.0",
+    "esbuild": "^0.14.21",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^27.5.1",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "rm -rf dist && yarn build",
     "build": "tsc",
     "compile-contract-types": "typechain --target ethers-v5 --out-dir './contracts/types' './contracts/abi/{common,compound,oracles}/*.json'",

@@ -1,4 +1,4 @@
-import { ChainID } from "../utils/networks";
+import { ChainID } from "../../utils/networks";
 import MAINNET_ADDRESSES from "./mainnet";
 import ARBITRUM_ADDRESSES from "./arbitrum";
 import ARBITRUM_RINKEBY_ADDRESSES from "./arbitrumRinkeby";
@@ -109,7 +109,7 @@ export interface FuseAddresses {
   DAI_JUG?: string;
 }
 
-const addresses: {
+const ADDRESSES: {
   [chainId: number]: FuseAddresses;
 } = {
   [ChainID.ETHEREUM]: MAINNET_ADDRESSES,
@@ -119,4 +119,4 @@ const addresses: {
   //ChainID.ARBITRUM_TESTNET]: ARBITRUM_RINKEBY_ADDRESSES,
 };
 
-export default addresses;
+export default ADDRESSES;
