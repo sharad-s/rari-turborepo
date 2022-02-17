@@ -7,8 +7,7 @@
     "test": "jest",
     "dev": "rm -rf dist && yarn build",
     "build": "tsc",
-    "compile-contract-types": "typechain --target ethers-v5 --out-dir './contracts/types' './contracts/abi/{common,compound,oracles}/*.json'",
-    "postinstall": "yarn compile-contract-types"
+    "compile-contract-types": "typechain -yarn wo-target ethers-v5 --out-dir './contracts/types' './contracts/abi/{common,compound,oracles}/*.json'"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +15,8 @@
   "dependencies": {
     "@ethersproject/providers": "^5.5.3",
     "axios": "^0.26.0",
-    "ethers": "^5.5.4"
+    "ethers": "^5.5.4",
+    "@rari-capital/subgraph": "*"
   },
   "devDependencies": {
     "@typechain/ethers-v5": "^9.0.0",

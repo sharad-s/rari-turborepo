@@ -1,6 +1,5 @@
-
 export const foo = () => {
-    console.log("Foo")
-}
+  console.log("Foo");
+};
 
 export const bar = 3;

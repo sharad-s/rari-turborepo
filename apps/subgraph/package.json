@@ -1,0 +1,24 @@
+{
+  "name": "@rari-capital/subgraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharad-s/rari-turborepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharad-s/rari-turborepo/issues"
+  },
+  "homepage": "https://github.com/sharad-s/rari-turborepo#readme"
+}
